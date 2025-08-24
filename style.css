@@ -106,7 +106,7 @@ body{
 @media(max-width:412px){
     #cont1{
     display:grid;
-    grid-template-columns: repeat(2,minmax(170px,500px));
+    grid-template-columns: repeat(2,minmax(170px,auto));
     justify-content: center;
     align-items: center;
     }#player1 h2{
@@ -130,5 +130,12 @@ body{
     text-align: center;
     font-size: 7vw;
     text-shadow: 3px 3px 3px rgb(206, 121, 107);
+}#magic button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(206, 121, 107);
+    margin-bottom: 50px;
 }
 }
