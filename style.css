@@ -91,6 +91,7 @@ body{
     border-radius: 8px;
     background-color: rgb(206, 121, 107);
     font-size: 1rem;
+    margin-bottom:60px;
 
 }#magic button:hover{
     background-color: red;
@@ -105,7 +106,7 @@ body{
 @media(max-width:412px){
     #cont1{
     display:grid;
-    grid-template-columns: repeat(2,minmax(170px,auto));
+    grid-template-columns: repeat(2,minmax(170px,500px));
     justify-content: center;
     align-items: center;
     }#player1 h2{
