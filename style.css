@@ -78,8 +78,6 @@ body{
     display: none;
     flex-wrap: wrap;
     
-/* }.hide{
-    display: none; */
 }#magic{
     display: flex;
     justify-content: center;
